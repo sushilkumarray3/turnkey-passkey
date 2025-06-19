@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turnkey Passkey Link</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    h1 {
+      color: #2d88ff;
+    }
+    .info {
+      margin-top: 12px;
+      max-width: 600px;
+      text-align: center;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 Turnkey Passkey Domain</h1>
+  <div class="info">
+    <p>This domain hosts the <code>.well-known/assetlinks.json</code> file used to verify Android App Links and enable <strong>Passkey Registration</strong>.</p>
+    <p>It is securely linked with the Android app <strong><code>xyz.tkhqlabs.passkeyapp</code></strong>.</p>
+    <p>To verify, Android checks <a href="/.well-known/assetlinks.json">assetlinks.json</a>.</p>
+  </div>
+</body>
+</html>
