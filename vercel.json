@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/.well-known/assetlinks.json",
+      "permanent": false
+    }
+  ]
+}
